@@ -1,0 +1,17 @@
+[remap]
+
+importer="taudplay.taud"
+type="AudioStreamTaud"
+uid="uid://brao1qcdy4pye"
+path="res://.godot/imported/16uba_baion.taud-becc642d5211025a15ec21a7e801caad.res"
+
+[deps]
+
+source_file="res://16uba_baion.taud"
+dest_files=["res://.godot/imported/16uba_baion.taud-becc642d5211025a15ec21a7e801caad.res"]
+
+[params]
+
+song=0
+loop=false
+binaural=false

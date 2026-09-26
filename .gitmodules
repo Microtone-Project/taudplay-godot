@@ -1,0 +1,6 @@
+[submodule "godot-cpp"]
+	path = godot-cpp
+	url = https://github.com/godotengine/godot-cpp
+[submodule "thirdparty/taudplay-c"]
+	path = thirdparty/taudplay-c
+	url = https://github.com/Microtone-Project/taudplay-c
