@@ -1,0 +1,8 @@
+CLAUDE.md
+/build/
+*.o
+*.os
+*.a
+.sconsign*.dblite
+__pycache__/
+/demo/addons/taudplay/bin/

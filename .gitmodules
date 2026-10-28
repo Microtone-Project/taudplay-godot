@@ -4,3 +4,5 @@
 [submodule "thirdparty/taudplay-c"]
 	path = thirdparty/taudplay-c
 	url = https://github.com/Microtone-Project/taudplay-c
+[submodule "taudplay-c"]
+	branch = master
