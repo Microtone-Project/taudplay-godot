@@ -1,8 +1,8 @@
 # taudplay-godot
 
----
 <p align="center"><em>You are currently looking at the Godot 4 version.</em></p>
 <p align="center"><a href="https://github.com/Microtone-Project/microtone-taudplay">JavaScript</a>  · <a href="https://github.com/Microtone-Project/taudplay-c">C99</a> · <a href="https://github.com/Microtone-Project/taudplay-java">Java</a> · Godot 4 · <a href="https://github.com/Microtone-Project/taudplay-libgdx">LibGDX</a></p>
+
 ---
 
 **Play `.taud` songs in Godot 4. Drop the file in, press play.**
