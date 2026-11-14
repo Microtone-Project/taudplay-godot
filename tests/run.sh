@@ -4,7 +4,7 @@
 #
 #   GODOT=/path/to/godot sh tests/run.sh [SONG.taud ...] [-t SECONDS]
 #
-# Build the extension first (scons). Default song: demo/slumberjack.taud.
+# Build the extension first (scons). Default song: demo/16uba_baion.taud.
 # Each song runs in real time, for SECONDS (default 10) or until it ends.
 set -e
 cd "$(dirname "$0")/.."
@@ -17,7 +17,7 @@ while [ $# -gt 0 ]; do
         *) SONGS="$SONGS $1"; shift ;;
     esac
 done
-[ -n "$SONGS" ] || SONGS=demo/slumberjack.taud
+[ -n "$SONGS" ] || SONGS=demo/16uba_baion.taud
 
 OUT=build/tests
 mkdir -p "$OUT"

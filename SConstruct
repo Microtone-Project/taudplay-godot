@@ -26,10 +26,13 @@ else:
     if env["arch"] == "x86_32":
         cenv.Append(CCFLAGS=["-msse2", "-mfpmath=sse"])
 
+# The library's sources, as its Makefile lists them (wasm_api, wasm_parts and
+# snapshot are the WebAssembly build's alone).
 taud_sources = [
     "jsmath", "tables", "inst", "samplemod", "sampler", "envelope", "filter", "fm",
-    "spatial", "binaural", "hrir_sadie", "mastering", "trigger", "effects", "row",
-    "tick", "mixer", "engine", "parse", "zstd", "inflate", "resample", "player",
+    "opl", "psg", "formant", "spatial", "binaural", "hrir_sadie", "mastering", "imix",
+    "trigger", "effects", "row", "tick", "mixer", "engine", "host", "imixtap", "meters",
+    "parse", "pitchext", "zstd", "inflate", "resample", "player",
 ]
 # Objects go to build/, so the submodule's tree stays clean.
 taud_objects = [
